@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
     
     [
                     InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data = "about"),
-                    InlineKeyboardButton('ʜᴏᴜᴛᴀʀᴏᴜ ᴏʀᴇᴋɪ 💔', url='https://t.me/HoutarouOrekiii')
+                    InlineKeyboardButton('Yuta ❤️', url='https://t.me/Spy_Radios')
         
     ]
             ]
