@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>ʜᴏᴜᴛᴀʀᴏᴜ ᴏʀᴇᴋɪ 💔</a></b>",
+            text = f"<b>ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>Yuta ❤️</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
                     InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 ᴄʜᴀɴɴᴇʟ', url='https://t.me/Anime_aeon')
+                    InlineKeyboardButton('🍁 ᴄʜᴀɴɴᴇʟ', url='https://t.me/Animes_Paradox')
                     ]
                 ]
             )
