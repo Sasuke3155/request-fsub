@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b> ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>Yᴜᴛᴀ</a>\nAɴɪᴍᴇ Pᴀʀᴀᴅᴏx : <a href='https://t.me/Animes_Paradox'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\nOɴɢᴏɪɴɢ Pᴀʀᴀᴅᴏx : <a href='https://t.me/Ongoing_Paradox'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\nHᴀɴɪᴍᴇ Pᴀʀᴀᴅᴏx : <a href='https://t.me/Heanime_Hub'>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>",
+            text = f"<b> ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>❤️</a>\nAnime Shrine : <a href='https://t.me/Animes_Shrine'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\nOngoing Shrine : <a href='https://t.me/Ongoing_Shrine'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\nCultured Shrine : <a href='https://t.me/Cultured_Shrine'>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
                     InlineKeyboardButton("⚡️ Cʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 Yᴜᴛᴀ', url='https://t.me/Spy_Radios')
+                    InlineKeyboardButton('🍁 Tanjiro', url='https://t.me/KamadoSen')
                     ]
                 ]
             )
