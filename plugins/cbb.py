@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b> ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>❤️</a>\nAnime Shrine : <a href='https://t.me/Animes_Shrine'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\nOngoing Shrine : <a href='https://t.me/Ongoing_Shrine'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\nCultured Shrine : <a href='https://t.me/Cultured_Shrine'>Cʟɪᴄᴋ Hᴇʀᴇ</a></b>",
+            text = f"<b> ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>❤️</a>\nᴀɴɪᴍᴇ sʜʀɪɴᴇ ⛩️ : <a href='https://t.me/Animes_Shrine'>ᴊᴏɪɴ ɴᴏᴡ</a>\nᴏɴɢᴏɪɴɢ sʜʀɪɴᴇ ⛩️: <a href='https://t.me/Ongoing_Shrine'>ᴊᴏɪɴ ɴᴏᴡ</a>\nᴄᴜʟᴛᴜʀᴇᴅ sʜʀɪɴᴇ ⛩️ : <a href='https://t.me/Cultured_Shrine'>ᴊᴏɪɴ ɴᴏᴡ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton("⚡️ Cʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 Tanjiro', url='https://t.me/KamadoSen')
+                    InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close"),
+                    InlineKeyboardButton('🍁 ᴛᴀɴᴊɪʀᴏ', url='https://t.me/KamadoSen')
                     ]
                 ]
             )
