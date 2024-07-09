@@ -7,7 +7,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7136624648:AAFvF_LmrZeYtlDwyK2eL7ylRxf0laJnckc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7124014131:AAELQWGlkrlsh3DIJjxKM7aqg--2VFS_pL8")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26977508"))
@@ -16,24 +16,24 @@ APP_ID = int(os.environ.get("APP_ID", "26977508"))
 API_HASH = os.environ.get("API_HASH", "396589629e6705c592bc7fe891dc6e37")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002231108208"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002022164649"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "KamadoSen")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6055158536"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6039119180"))
 
 #Port
 PORT = os.environ.get("PORT", "8030")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://drapixstore:Y7DJWJCCpBQClI5o@cluster0.fq7ee6x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "drapixstore")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://autorenameparadox:UhGvf4nc1A6FLHO7@cluster0.lhvx0w9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "autorenameparadox")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002207171276)
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002202525645"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001821544841")
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
