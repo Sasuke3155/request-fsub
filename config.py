@@ -28,8 +28,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6039119180"))
 PORT = os.environ.get("PORT", "8030")
 
 #Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animeparadox:gCxt2w1cs7S4qppD@cluster0.bbmgfw9.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "autorenameparadox")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://CulturedShrinep0:CulturedShrine0@cluster0.b9kooqc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "CulturedShrine0")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002170972674")
